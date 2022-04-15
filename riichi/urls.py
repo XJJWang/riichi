@@ -13,7 +13,7 @@ urlpatterns = [
     path('login/', views.login),
     path('register/', views.register),
     path('logout/', views.logout),
-
+    path('add_game/', views.add_game),
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT }),
 
 ]

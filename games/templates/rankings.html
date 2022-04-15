@@ -1,3 +1,10 @@
+{% load static %}
+<link
+rel = "stylesheet"
+type ="text/css"
+href = "{% static 'home/css/bootstrap.css' %}"
+/>
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +12,7 @@
     <title>index</title>
 </head>
 <body>
-
+dadasdsda
 {% if players_total_points %}
     <ul>
     {% for point in players_total_points %}

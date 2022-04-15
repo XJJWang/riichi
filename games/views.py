@@ -8,8 +8,8 @@ from django.http import HttpResponse
 from .models import Game
 
 
-def add_record(request):
-    return HttpResponse('')
+def add_game(request):
+    return render(request, 'add_game.html')
 
 
 def score_to_point(records):
